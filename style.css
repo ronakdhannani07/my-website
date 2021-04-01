@@ -1,0 +1,39 @@
+*{
+    justify-content: center;
+    align-items: center;
+}
+.header{
+    justify-content: center;
+    align-items: center;
+
+}
+.grid{
+    display: flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+}
+
+img:hover{
+    border: 5px solid rgb(50, 35, 129);
+    transform: translateX(10px);
+
+}
+  a:link {
+    color: rgb(16, 13, 230);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:visited {
+    color: rgb(233, 159, 0);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:hover {
+     
+    color: rgb(138, 0, 96);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
